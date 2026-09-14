@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>Reciept Generator</title>
+</head>
+<body>
+    <h2>Reciept Generator</h2>
+    <div>
+        <form>
+            <input type="checkbox" id="item1" value="3600">
+            <label for="item1">Parker IM, Gold Trim, Medium</label> <br>
+            <input type="checkbox" id="item2" value="2100">
+            <label for="item2">Sailor Tuzu, Medium</label> <br>
+            <input type="checkbox" id="item3" value="350">
+            <label for="item3">Platinum Preppy, Fine</label> <br>
+            <input type="checkbox" id="item4" value="290">
+            <label for="item4">Jinhao 82, Fine</label> <br>
+            <button class="button btn-primary" py-click="order">Order</button>
+        </form>
+    </div>
+    <div id="result"></div>
+
+    <py-script src="main.py"></py-script>
+</body>
+</html>
