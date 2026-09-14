@@ -17,7 +17,7 @@ def order(e):
     check4 = document.getElementById('item4').checked
 
     subtotal = item1 * check1 + item2 * check2 + item3 * check3 + item4 * check4
-
+    
     vat = subtotal * 0.12
     total = subtotal + vat
 
